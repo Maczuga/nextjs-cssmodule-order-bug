@@ -1,0 +1,21 @@
+@import "styles/variables";
+
+.root {
+  border-radius: $border-radius;
+  padding: $badge-padding-y $badge-padding-x;
+  background: $gray;
+}
+
+.small {
+  padding: $badge-padding-y-sm $badge-padding-x-sm;
+}
+
+.primary {
+  background: $primary;
+  color: #FFF;
+}
+
+.secondary {
+  background: $secondary;
+  color: #FFF;
+}
